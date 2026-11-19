@@ -8,6 +8,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Device Startup Message** — Prints device name, microcontroller, startup status, and operating mode.
 - **Sensor Data Monitoring** — Displays a device ID, sensor voltage, current, and device status.
 - **Temperature Monitoring** — Classifies a temperature reading as high, normal, or low using conditional statements.
+- **Motor Control System** — Uses a switch-case statement to process motor ON, OFF, forward, and reverse commands.
 
 ### 02. Embedded C Applications
 - **Battery Voltage Monitoring** — Calculates power and remaining voltage from sample battery readings.
@@ -19,7 +20,8 @@ Embedded-C/
 ├── 01_Basics/
 │   ├── 01_device_startup_message.c
 │   ├── 02_sensor_data_monitoring.c
-│   └── 03_temperature_monitoring.c
+│   ├── 03_temperature_monitoring.c
+│   └── 04_motor_control_system.c
 ├── 02_Embedded_C_Applications/
 │   └── 01_battery_voltage_monitoring.c
 └── README.md
