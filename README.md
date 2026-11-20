@@ -16,6 +16,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Temperature Monitoring Using Functions** — Uses a function to check whether the temperature exceeds 40°C.
 - **Multiple Sensor Data Monitoring** — Displays five temperature readings and calculates their total and average.
 - **Sensor Value Using Pointers** — Reads and updates a sensor value using a pointer.
+- **Embedded Device Identification** — Uses string functions to display, measure, and compare device information.
 
 ## Repository Structure
 
@@ -32,7 +33,8 @@ Embedded-C/
 │   ├── 08_embedded_device_initialization.c
 │   ├── 09_temperature_monitoring_using_functions.c
 │   ├── 10_multiple_sensor_data_monitoring.c
-│   └── 11_sensor_value_using_pointers.c
+│   ├── 11_sensor_value_using_pointers.c
+│   └── 12_embedded_device_identification.c
 └── README.md
 ```
 
