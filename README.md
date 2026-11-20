@@ -6,13 +6,13 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 
 ### 01. Basics
 - **Device Startup Message** — Prints device name, microcontroller, startup status, and operating mode.
+- **Battery Voltage Monitoring** — Calculates power and remaining voltage from sample battery readings.
 - **Sensor Data Monitoring** — Displays a device ID, sensor voltage, current, and device status.
 - **Temperature Monitoring** — Classifies a temperature reading as high, normal, or low using conditional statements.
 - **Motor Control System** — Uses a switch-case statement to process motor ON, OFF, forward, and reverse commands.
 - **Sensor Monitoring Counter (for loop)** — Prints 10 sensor readings using a for loop.
 - **Sensor Monitoring Counter (while loop)** — Prints 10 sensor values using a while loop.
 - **Embedded Device Initialization** — Uses a do-while loop to repeat device initialization five times.
-- **Battery Voltage Monitoring** — Calculates power and remaining voltage from sample battery readings.
 
 ## Repository Structure
 
