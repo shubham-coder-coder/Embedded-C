@@ -18,6 +18,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Sensor Value Using Pointers** — Reads and updates a sensor value using a pointer.
 - **Embedded Device Identification** — Uses string functions to display, measure, and compare device information.
 - **Sensor Data Management System** — Uses a structure to store sensor details and calculate power.
+- **Memory-Efficient Sensor Data** — Uses a union to store temperature, voltage, or status in shared memory.
 
 ## Repository Structure
 
@@ -36,7 +37,8 @@ Embedded-C/
 │   ├── 10_multiple_sensor_data_monitoring.c
 │   ├── 11_sensor_value_using_pointers.c
 │   ├── 12_embedded_device_identification.c
-│   └── 13_sensor_data_management_system.c
+│   ├── 13_sensor_data_management_system.c
+│   └── 14_memory_efficient_sensor_data.c
 └── README.md
 ```
 
