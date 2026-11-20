@@ -2,11 +2,27 @@
 
 int main()
 {
-    int count = 10;
+    int command;
 
-    for (int i = 1; i <= count; i++)
+    printf("Enter command: ");
+    scanf("%d", &command);
+
+    switch (command)
     {
-        printf("sensor Reading: %d\n", i);
+        case 1:
+            printf("motor ON");
+            break;
+        case 2:
+            printf("motor OFF");
+            break;
+        case 3:
+            printf("motor Forward");
+            break;
+        case 4:
+            printf("motor Reverse");
+            break;
+        default:
+            printf("invalid command\n");
     }
 
     return 0;
