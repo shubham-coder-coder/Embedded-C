@@ -2,15 +2,15 @@
 
 int main()
 {
-    int id = 205;
-    float vol = 3.3;
-    float current = 1.5;
-    char dev_status = 'A';
+    float battery_volt = 12.5;
+    float battery_cur = 2.0;
+    float power = battery_volt * battery_cur;
+    float remaining_voltage = battery_volt - 1.5;
 
-    printf("Device ID: %d\n", id);
-    printf("Voltage: %.1f V\n", vol);
-    printf("Current: %.1f A\n", current);
-    printf("Device Status: %c\n", dev_status);
+    printf("Voltage: %f V\n", battery_volt);
+    printf("Current: %f A\n", battery_cur);
+    printf("Power: %f W\n", power);
+    printf("Remaining Voltage: %f V\n", remaining_voltage);
 
     return 0;
 }
