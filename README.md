@@ -17,6 +17,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Multiple Sensor Data Monitoring** — Displays five temperature readings and calculates their total and average.
 - **Sensor Value Using Pointers** — Reads and updates a sensor value using a pointer.
 - **Embedded Device Identification** — Uses string functions to display, measure, and compare device information.
+- **Sensor Data Management System** — Uses a structure to store sensor details and calculate power.
 
 ## Repository Structure
 
@@ -34,7 +35,8 @@ Embedded-C/
 │   ├── 09_temperature_monitoring_using_functions.c
 │   ├── 10_multiple_sensor_data_monitoring.c
 │   ├── 11_sensor_value_using_pointers.c
-│   └── 12_embedded_device_identification.c
+│   ├── 12_embedded_device_identification.c
+│   └── 13_sensor_data_management_system.c
 └── README.md
 ```
 
