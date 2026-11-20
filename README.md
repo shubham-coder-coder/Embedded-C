@@ -12,8 +12,6 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Sensor Monitoring Counter (for loop)** — Prints 10 sensor readings using a for loop.
 - **Sensor Monitoring Counter (while loop)** — Prints 10 sensor values using a while loop.
 - **Embedded Device Initialization** — Uses a do-while loop to repeat device initialization five times.
-
-### 02. Embedded C Applications
 - **Battery Voltage Monitoring** — Calculates power and remaining voltage from sample battery readings.
 
 ## Repository Structure
@@ -27,9 +25,8 @@ Embedded-C/
 │   ├── 04_motor_control_system.c
 │   ├── 05_sensor_monitoring_counter_for_loop.c
 │   ├── 06_sensor_monitoring_counter_while_loop.c
-│   └── 07_embedded_device_initialization.c
-├── 02_Embedded_C_Applications/
-│   └── 01_battery_voltage_monitoring.c
+│   ├── 07_embedded_device_initialization.c
+│   └── 08_battery_voltage_monitoring.c
 └── README.md
 ```
 
