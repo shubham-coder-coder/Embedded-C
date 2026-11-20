@@ -14,6 +14,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Sensor Monitoring Counter (while loop)** — Prints 10 sensor values using a while loop.
 - **Embedded Device Initialization** — Uses a do-while loop to repeat device initialization five times.
 - **Temperature Monitoring Using Functions** — Uses a function to check whether the temperature exceeds 40°C.
+- **Multiple Sensor Data Monitoring** — Displays five temperature readings and calculates their total and average.
 
 ## Repository Structure
 
@@ -28,7 +29,8 @@ Embedded-C/
 │   ├── 06_sensor_monitoring_counter_for_loop.c
 │   ├── 07_sensor_monitoring_counter_while_loop.c
 │   ├── 08_embedded_device_initialization.c
-│   └── 09_temperature_monitoring_using_functions.c
+│   ├── 09_temperature_monitoring_using_functions.c
+│   └── 10_multiple_sensor_data_monitoring.c
 └── README.md
 ```
 
