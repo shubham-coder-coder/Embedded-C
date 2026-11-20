@@ -2,12 +2,11 @@
 
 int main()
 {
-    int count = 0;
+    int count = 10;
 
-    while (count < 10)
+    for (int i = 1; i <= count; i++)
     {
-        count++;
-        printf("sensor value: %d\n", count);
+        printf("sensor Reading: %d\n", i);
     }
 
     return 0;
