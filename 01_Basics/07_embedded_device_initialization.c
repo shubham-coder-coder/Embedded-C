@@ -2,15 +2,13 @@
 
 int main()
 {
-    int attempt = 0;
+    int count = 0;
 
-    do
+    while (count < 10)
     {
-        printf("Initializing Device...\n");
-        attempt++;
-    } while (attempt < 5);
-
-    printf("Device Initialization Completed\n");
+        count++;
+        printf("sensor value: %d\n", count);
+    }
 
     return 0;
 }
