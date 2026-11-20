@@ -2,28 +2,14 @@
 
 int main()
 {
-    int command;
+    float temp = 40;
 
-    printf("Enter command: ");
-    scanf("%d", &command);
-
-    switch (command)
-    {
-        case 1:
-            printf("motor ON");
-            break;
-        case 2:
-            printf("motor OFF");
-            break;
-        case 3:
-            printf("motor Forward");
-            break;
-        case 4:
-            printf("motor Reverse");
-            break;
-        default:
-            printf("invalid command\n");
-    }
+    if (temp > 40)
+        printf("high temperature");
+    else if (temp >= 25 && temp <= 40)
+        printf("normal temperature");
+    else
+        printf("low temperature");
 
     return 0;
 }
