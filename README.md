@@ -19,6 +19,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Embedded Device Identification** — Uses string functions to display, measure, and compare device information.
 - **Sensor Data Management System** — Uses a structure to store sensor details and calculate power.
 - **Memory-Efficient Sensor Data** — Uses a union to store temperature, voltage, or status in shared memory.
+- **Embedded Device Configuration** — Uses `typedef struct` to define and store device configuration details.
 
 ## Repository Structure
 
@@ -38,7 +39,8 @@ Embedded-C/
 │   ├── 11_sensor_value_using_pointers.c
 │   ├── 12_embedded_device_identification.c
 │   ├── 13_sensor_data_management_system.c
-│   └── 14_memory_efficient_sensor_data.c
+│   ├── 14_memory_efficient_sensor_data.c
+│   └── 15_embedded_device_configuration.c
 └── README.md
 ```
 
