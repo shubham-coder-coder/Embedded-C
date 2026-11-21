@@ -21,6 +21,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Memory-Efficient Sensor Data** — Uses a union to store temperature, voltage, or status in shared memory.
 - **Embedded Device Configuration** — Uses `typedef struct` to define and store device configuration details.
 - **Device Startup Counter** — Uses a static local variable to count function calls across repeated startups.
+- **Embedded Safety Monitoring System** — Uses `#define`, `const`, and `volatile` to monitor battery voltage and trigger an over-voltage alert.
 
 ## Repository Structure
 
@@ -42,7 +43,8 @@ Embedded-C/
 │   ├── 13_sensor_data_management_system.c
 │   ├── 14_memory_efficient_sensor_data.c
 │   ├── 15_embedded_device_configuration.c
-│   └── 16_device_startup_counter.c
+│   ├── 16_device_startup_counter.c
+│   └── 17_embedded_safety_monitoring_system.c
 └── README.md
 ```
 
