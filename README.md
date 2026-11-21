@@ -22,6 +22,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Embedded Device Configuration** — Uses `typedef struct` to define and store device configuration details.
 - **Device Startup Counter** — Uses a static local variable to count function calls across repeated startups.
 - **Embedded Safety Monitoring System** — Uses `#define`, `const`, and `volatile` to monitor battery voltage and trigger an over-voltage alert.
+- **Microcontroller Register Control** — Uses bitwise OR, AND, and XOR operations to set, clear, and toggle register bits.
 
 ## Repository Structure
 
@@ -44,7 +45,8 @@ Embedded-C/
 │   ├── 14_memory_efficient_sensor_data.c
 │   ├── 15_embedded_device_configuration.c
 │   ├── 16_device_startup_counter.c
-│   └── 17_embedded_safety_monitoring_system.c
+│   ├── 17_embedded_safety_monitoring_system.c
+│   └── 18_microcontroller_register_control.c
 └── README.md
 ```
 
