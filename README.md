@@ -20,6 +20,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Sensor Data Management System** — Uses a structure to store sensor details and calculate power.
 - **Memory-Efficient Sensor Data** — Uses a union to store temperature, voltage, or status in shared memory.
 - **Embedded Device Configuration** — Uses `typedef struct` to define and store device configuration details.
+- **Device Startup Counter** — Uses a static local variable to count function calls across repeated startups.
 
 ## Repository Structure
 
@@ -40,7 +41,8 @@ Embedded-C/
 │   ├── 12_embedded_device_identification.c
 │   ├── 13_sensor_data_management_system.c
 │   ├── 14_memory_efficient_sensor_data.c
-│   └── 15_embedded_device_configuration.c
+│   ├── 15_embedded_device_configuration.c
+│   └── 16_device_startup_counter.c
 └── README.md
 ```
 
