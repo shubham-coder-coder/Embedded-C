@@ -24,6 +24,19 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Embedded Safety Monitoring System** — Uses `#define`, `const`, and `volatile` to monitor battery voltage and trigger an over-voltage alert.
 - **Microcontroller Register Control** — Uses bitwise OR, AND, and XOR operations to set, clear, and toggle register bits.
 
+### 02. Pointers and Dynamic Memory
+- **Temperature Sensor Value Using Pointers** — Reads, displays, and updates a variable through a pointer.
+- **Sensor Array Using Pointer Arithmetic** — Accesses array elements using pointer arithmetic.
+- **Microcontroller Name Using Pointers** — Traverses a character array and counts characters using a pointer.
+- **Sensor Value Using a Double Pointer** — Reads and updates a variable using a pointer to a pointer.
+- **Safe Sensor Pointer** — Initializes a pointer with `NULL` and checks it before dereferencing.
+- **Read-Only Sensor Pointer** — Uses a pointer to constant data.
+- **Fixed Sensor Address** — Uses a constant pointer to update the value at a fixed address.
+- **Read-Only Fixed Sensor Pointer** — Uses a constant pointer to constant data.
+- **Dynamically Store Sensor Readings** — Allocates memory with `malloc()`, stores readings, calculates the total, and releases memory.
+- **Expand Sensor Storage** — Uses `realloc()` to increase dynamically allocated storage.
+- **Practice 30: Sensor Readings Average** — Dynamically stores five readings and calculates their total and average.
+
 ## Repository Structure
 
 ```
@@ -47,6 +60,18 @@ Embedded-C/
 │   ├── 16_device_startup_counter.c
 │   ├── 17_embedded_safety_monitoring_system.c
 │   └── 18_microcontroller_register_control.c
+├── 02_Pointers_and_Dynamic_Memory/
+│   ├── 01_temperature_sensor_value_using_pointers.c
+│   ├── 02_sensor_array_using_pointer_arithmetic.c
+│   ├── 03_microcontroller_name_using_pointers.c
+│   ├── 04_sensor_value_using_double_pointer.c
+│   ├── 05_safe_sensor_pointer.c
+│   ├── 06_read_only_sensor_pointer.c
+│   ├── 07_fixed_sensor_address.c
+│   ├── 08_read_only_fixed_sensor_pointer.c
+│   ├── 09_dynamically_store_sensor_readings.c
+│   ├── 10_expand_sensor_storage.c
+│   └── 11_practice_30_sensor_readings_average.c
 └── README.md
 ```
 
