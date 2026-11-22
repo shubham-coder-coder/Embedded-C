@@ -36,6 +36,11 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Dynamically Store Sensor Readings** — Allocates memory with `malloc()`, stores readings, calculates the total, and releases memory.
 - **Expand Sensor Storage** — Uses `realloc()` to increase dynamically allocated storage.
 - **Practice 30: Sensor Readings Average** — Dynamically stores five readings and calculates their total and average.
+- **Practice 31: Dynamic Allocation of One Integer** — Allocates memory for one integer, stores and prints a value, then frees the memory and sets the pointer to `NULL`.
+- **Practice 32: Resize Sensor Storage Using realloc** — Resizes dynamically allocated memory to store five sensor readings.
+- **Practice 33: Allocate and Free Three Integers** — Stores and displays three integers, frees the memory once, and checks the pointer.
+- **Practice 34: Local and Dynamic Integer Memory** — Compares a local integer variable with a dynamically allocated integer.
+- **Practice 35: Variable Scope in an Inner Block** — Demonstrates the scope of a variable declared inside an inner block.
 
 ## Repository Structure
 
@@ -71,7 +76,12 @@ Embedded-C/
 │   ├── 08_read_only_fixed_sensor_pointer.c
 │   ├── 09_dynamically_store_sensor_readings.c
 │   ├── 10_expand_sensor_storage.c
-│   └── 11_practice_30_sensor_readings_average.c
+│   ├── 11_practice_30_sensor_readings_average.c
+│   ├── 12_dynamic_allocation_single_integer.c
+│   ├── 13_resize_sensor_storage_using_realloc.c
+│   ├── 14_allocate_and_free_three_integers.c
+│   ├── 15_local_and_dynamic_integer_memory.c
+│   └── 16_variable_scope_inner_block.c
 └── README.md
 ```
 
