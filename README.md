@@ -41,6 +41,7 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Practice 33: Allocate and Free Three Integers** — Stores and displays three integers, frees the memory once, and checks the pointer.
 - **Practice 34: Local and Dynamic Integer Memory** — Compares a local integer variable with a dynamically allocated integer.
 - **Practice 35: Variable Scope in an Inner Block** — Demonstrates the scope of a variable declared inside an inner block.
+- **Practice 36: Global Sensor Value Using extern** — Accesses and displays a global variable using `extern` inside a function.
 
 ## Repository Structure
 
@@ -81,7 +82,8 @@ Embedded-C/
 │   ├── 13_resize_sensor_storage_using_realloc.c
 │   ├── 14_allocate_and_free_three_integers.c
 │   ├── 15_local_and_dynamic_integer_memory.c
-│   └── 16_variable_scope_inner_block.c
+│   ├── 16_variable_scope_inner_block.c
+│   └── 17_extern_global_sensor_value.c
 └── README.md
 ```
 
