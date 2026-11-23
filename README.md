@@ -43,6 +43,22 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Practice 35: Variable Scope in an Inner Block** — Demonstrates the scope of a variable declared inside an inner block.
 - **Practice 36: Global Sensor Value Using extern** — Accesses and displays a global variable using `extern` inside a function.
 
+### 03. Bitwise Operations
+- **Practice 37: Bitwise Operations** — Performs AND, OR, XOR, left-shift, and right-shift operations.
+- **Practice 38: Register Bit Manipulation** — Sets, clears, and toggles register bits and checks a bit's state.
+- **Practice 39: Clear a Specific Register Bit** — Uses a bit mask to clear bit 2 and verify the result.
+- **Practice 40: Embedded Control Register** — Enables and disables LED, motor, sensor, and buzzer control bits.
+
+### 04. Volatile and Preprocessor
+- **Practice 41: Volatile Temperature** — Demonstrates reading and updating a volatile variable.
+- **Double Sensor Value Macro** — Uses a function-like macro to double a sensor value.
+- **Debug Mode Macro** — Uses `#ifdef` and `#else` for conditional compilation.
+- **LED Header and Function** — Demonstrates header guards, a macro constant, and a function declaration shared between `led.h` and `main.c`.
+
+### 05. Function Pointers
+- **LED Function Pointer** — Calls an LED function through a function pointer.
+- **Multiply Using a Function Pointer** — Calls a multiplication function through a function pointer.
+
 ## Repository Structure
 
 ```
@@ -84,6 +100,20 @@ Embedded-C/
 │   ├── 15_local_and_dynamic_integer_memory.c
 │   ├── 16_variable_scope_inner_block.c
 │   └── 17_extern_global_sensor_value.c
+├── 03_Bitwise_Operations/
+│   ├── 01_bitwise_operations.c
+│   ├── 02_register_bit_manipulation.c
+│   ├── 03_clear_specific_register_bit.c
+│   └── 04_embedded_control_register.c
+├── 04_Volatile_and_Preprocessor/
+│   ├── 01_volatile_temperature.c
+│   ├── 02_double_sensor_value_macro.c
+│   ├── 03_debug_mode_macro.c
+│   ├── led.h
+│   └── main.c
+├── 05_Function_Pointers/
+│   ├── 01_led_function_pointer.c
+│   └── 02_multiply_using_function_pointer.c
 └── README.md
 ```
 
