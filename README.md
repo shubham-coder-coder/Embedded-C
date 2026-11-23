@@ -59,6 +59,19 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **LED Function Pointer** — Calls an LED function through a function pointer.
 - **Multiply Using a Function Pointer** — Calls a multiplication function through a function pointer.
 
+### 06. Register and Logic
+- **Practice 42: Register Addition** — Adds two register values and stores the result.
+- **Practice 43: Button and LED Control** — Controls an LED output based on a button input.
+- **Practice 44: Flash, RAM, and GPIO Variables** — Demonstrates `const`, regular, and `volatile` variables.
+
+### 07. Timers and Interrupts
+- **Practice 45: Timer Interrupt Flag** — Simulates an interrupt service routine setting a volatile flag.
+- **Practice 46: Timer Counter** — Increments and displays a timer count using a loop.
+
+### 08. ADC and PWM
+- **Practice 47: 12-bit ADC Conversion** — Calculates a 12-bit ADC reading from input and reference voltages.
+- **Practice 48: LED PWM Brightness** — Displays LED state based on its PWM duty cycle.
+
 ## Repository Structure
 
 ```
@@ -114,6 +127,16 @@ Embedded-C/
 ├── 05_Function_Pointers/
 │   ├── 01_led_function_pointer.c
 │   └── 02_multiply_using_function_pointer.c
+├── 06_Register_and_Logic/
+│   ├── 01_register_addition.c
+│   ├── 02_button_led_control.c
+│   └── 03_flash_ram_gpio_variables.c
+├── 07_Timers_and_Interrupts/
+│   ├── 01_timer_interrupt_flag.c
+│   └── 02_timer_counter.c
+├── 08_ADC_and_PWM/
+│   ├── 01_12_bit_adc_conversion.c
+│   └── 02_led_pwm_brightness.c
 └── README.md
 ```
 
