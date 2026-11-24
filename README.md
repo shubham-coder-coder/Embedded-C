@@ -72,6 +72,11 @@ A collection of Embedded C programs, practical exercises, and microcontroller pr
 - **Practice 47: 12-bit ADC Conversion** — Calculates a 12-bit ADC reading from input and reference voltages.
 - **Practice 48: LED PWM Brightness** — Displays LED state based on its PWM duty cycle.
 
+### 09. Communication Protocols
+- **UART Data Transmission** — Displays a baud rate and the character being transmitted.
+- **SPI Data Transmission** — Displays the SPI clock speed and transmitted data in hexadecimal.
+- **I2C Sensor Data** — Displays an I2C device address in hexadecimal and received sensor data in decimal.
+
 ## Repository Structure
 
 ```
@@ -137,6 +142,10 @@ Embedded-C/
 ├── 08_ADC_and_PWM/
 │   ├── 01_12_bit_adc_conversion.c
 │   └── 02_led_pwm_brightness.c
+├── 09_Communication_Protocols/
+│   ├── 01_uart_data_transmission.c
+│   ├── 02_spi_data_transmission.c
+│   └── 03_i2c_sensor_data.c
 └── README.md
 ```
 
